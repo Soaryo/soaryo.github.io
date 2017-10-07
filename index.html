@@ -260,6 +260,415 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/02/Backbone学习笔记/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Wuyu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Soaryo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/10/02/Backbone学习笔记/" itemprop="url">Backbone学习笔记</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-02T15:43:41+08:00">
+                2017-10-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>#数据模型<br>创建数据模型：<code>Model.extend();</code>定义模型事可初始化数据，定义构造方法，通过实例模型，产生一个个数据模型对象<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> Student = Backbone.Model.extend(&#123;</div><div class="line">    initialize:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        <span class="comment">//执行构造代码</span></div><div class="line">    &#125;,</div><div class="line">    defualt: &#123;</div><div class="line">        name:<span class="string">''</span>,</div><div class="line">        age:<span class="string">''</span>,</div><div class="line">        score:<span class="string">''</span></div><div class="line">    &#125;,</div><div class="line">    PrintName:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        <span class="built_in">console</span>.log(<span class="keyword">this</span>.get(<span class="string">'name'</span>));</div><div class="line">    &#125;</div><div class="line">&#125;)</div><div class="line"><span class="keyword">var</span> stuA = <span class="keyword">new</span> Student();</div><div class="line">stuA.set(&#123;<span class="attr">name</span>:<span class="string">"sven"</span>,<span class="attr">age</span>:<span class="string">"22"</span>,<span class="attr">score</span>:<span class="string">'100'</span>&#125;);<span class="comment">//模型对象set()和get()设置数据</span></div><div class="line">stuA.PrintName();</div><div class="line"><span class="keyword">var</span> stuB = <span class="keyword">new</span> Student();</div></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/02/《JS设计模式与开发实践》/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Wuyu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Soaryo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/10/02/《JS设计模式与开发实践》/" itemprop="url">《JS设计模式与开发实践》笔记</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-02T09:26:09+08:00">
+                2017-10-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="面向对象的JS"><a href="#面向对象的JS" class="headerlink" title="面向对象的JS"></a>面向对象的JS</h1><h2 id="鸭子类型"><a href="#鸭子类型" class="headerlink" title="鸭子类型"></a>鸭子类型</h2><p>只关注对象的行为，而不关注对象的本身。一只动物能否发出声音取决于它有没有makesound()方法，而不在于它是某种类型的对象，不存在“类型耦合”</p>
+<h2 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h2><p><code>多态</code>：同一操作在不同对象上，可产生不同的解释和不同的执行结果。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> makeSound = <span class="function"><span class="keyword">function</span>(<span class="params">animal</span>)</span>&#123;</div><div class="line">    <span class="keyword">if</span>(animal <span class="keyword">instanceof</span> Duck) <span class="built_in">console</span>.log(<span class="string">'嘎嘎嘎'</span>);</div><div class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(animal <span class="keyword">instanceof</span> Chicken) <span class="built_in">console</span>.log(<span class="string">'咯咯咯'</span>);</div><div class="line">&#125;</div><div class="line"><span class="keyword">var</span> Duck = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;;</div><div class="line"><span class="keyword">var</span> Chicken = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;;</div><div class="line">makeSound(<span class="keyword">new</span> Duck());<span class="comment">//嘎嘎嘎</span></div><div class="line">makeSound(<span class="keyword">new</span> Chicken());<span class="comment">//咯咯咯</span></div></pre></td></tr></table></figure></p>
+<p>对象的多态性<br>多态背后的思想:”将做什么”和”谁去做及怎样做”分离，就是将”不变的事物”和”可能改变的事物”分离<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> makeSound = <span class="function"><span class="keyword">function</span>(<span class="params">animal</span>)</span>&#123;animal.sound;&#125;;</div><div class="line"><span class="keyword">var</span> Duck = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;;</div><div class="line">Duck.prototype.sound = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="built_in">console</span>.log(<span class="string">'嘎嘎嘎'</span>);&#125;;</div><div class="line"><span class="keyword">var</span> Chicken = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;;</div><div class="line">Chicken.prototype.sound = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="built_in">console</span>.log(<span class="string">'咯咯咯'</span>);&#125;;</div><div class="line">makeSound(<span class="keyword">new</span> Duck());<span class="comment">//嘎嘎嘎</span></div><div class="line">makeSound(<span class="keyword">new</span> Chicken());<span class="comment">//咯咯咯</span></div></pre></td></tr></table></figure></p>
+<p>多态的作用：通过把<code>过程化的分支语句</code>转化为<code>对象的多态性</code>，从而消除条件分支语句</p>
+<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><p>封装的目的：将信息隐藏，包括封装数据、封装实现、封装类型、封装变化。<br>封装数据：js中依赖变量作用域来实现封装，只能模拟出public和private两种封装性<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> Plane = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="keyword">this</span>.blood = <span class="number">100</span>;</div><div class="line">    <span class="keyword">this</span>.attackLevel = <span class="number">1</span>;</div><div class="line">    <span class="keyword">this</span>.defendLevel = <span class="number">1</span>; </div><div class="line">&#125;;</div><div class="line"><span class="keyword">var</span> plane = <span class="keyword">new</span> Plane();</div><div class="line">plane.blood = <span class="number">500</span>;</div><div class="line">plane.attackLevel = <span class="number">10</span>;</div><div class="line">plane.defendLevel = <span class="number">7</span>;</div><div class="line"><span class="keyword">var</span> clonePlane = <span class="built_in">Object</span>.create(plane);</div><div class="line"><span class="built_in">console</span>.log(clonePlane);</div></pre></td></tr></table></figure></p>
+<h2 id="原型继承"><a href="#原型继承" class="headerlink" title="原型继承"></a>原型继承</h2><ol>
+<li>所有的数据都是对象</li>
+<li>要得到一个对象，不是通过实例化，而是找到一个对象作为原型并克隆它<br>调用<code>var obj =new Object()</code>引擎内部会从Object.prototype上克隆一个对象</li>
+<li>对象会记住原型</li>
+<li>如果对象无法响应某个请求，它会把这个请求委托给它自己的原型</li>
+</ol>
+<h1 id="this、call、和apply"><a href="#this、call、和apply" class="headerlink" title="this、call、和apply"></a>this、call、和apply</h1><h2 id="this"><a href="#this" class="headerlink" title="this"></a>this</h2><h3 id="this指向"><a href="#this指向" class="headerlink" title="this指向"></a>this指向</h3><ol>
+<li>作对象方法调用</li>
+<li><p>作普通函数调用<br>this总是指向全局对象</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">window</span>.name = <span class="string">"globalName"</span>;</div><div class="line"><span class="keyword">var</span> obj = &#123;</div><div class="line">    a:<span class="number">1</span>,</div><div class="line">    name:<span class="string">"sven"</span>,</div><div class="line">    getA:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="built_in">console</span>.log(<span class="keyword">this</span>.a)&#125;,</div><div class="line">    getName:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="keyword">return</span> <span class="keyword">this</span>.name;&#125;</div><div class="line">&#125;</div><div class="line">obj.getA();<span class="comment">//对象方法调用</span></div><div class="line"><span class="keyword">var</span> getName = obj.getName;<span class="comment">//引用函数</span></div><div class="line"><span class="built_in">console</span>.log(getName());<span class="comment">//普通函数调用</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>构造器调用<br>通常情况下：构造器中的this指向返回的这个对象</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//若显式返回一个Object类型时</span></div><div class="line"><span class="keyword">var</span> MyClass=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="keyword">this</span>.name=<span class="string">'sven'</span>;</div><div class="line">    <span class="keyword">return</span> &#123;<span class="attr">name</span>:<span class="string">'anne'</span>&#125;</div><div class="line">&#125;;</div><div class="line"><span class="keyword">var</span> obj = <span class="keyword">new</span> MyClass();</div><div class="line">obj.name;<span class="comment">//anne</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>Function.prototype.call and Function.prototype.apply<br>call()和apply()可以动态改变传入函数的this</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> obj1=&#123;<span class="attr">name</span>:<span class="string">"anne"</span>,<span class="attr">getName</span>:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="keyword">return</span> <span class="keyword">this</span>.name&#125;&#125;;</div><div class="line"><span class="keyword">var</span> obj2=&#123;<span class="attr">name</span>:<span class="string">"sven"</span>&#125;;</div><div class="line"><span class="built_in">console</span>.log(obj1.getName());</div><div class="line"><span class="built_in">console</span>.log(obj1.getName.call(obj2));</div><div class="line"><span class="comment">//借用obj1的方法，其中的this指向传入的对象(obj2)</span></div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="call和apply的用途"><a href="#call和apply的用途" class="headerlink" title="call和apply的用途"></a>call和apply的用途</h3><ol>
+<li><p>改变this指向</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">document</span>.getElementById(<span class="string">'div1'</span>).onclick = functionn()&#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="keyword">this</span>.id);<span class="comment">//div1</span></div><div class="line">    <span class="keyword">var</span> func = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        <span class="built_in">console</span>.log(<span class="keyword">this</span>.id);<span class="comment">//undefined</span></div><div class="line">    &#125;</div><div class="line">    func();</div><div class="line">    <span class="comment">//func.call(this) this-&gt;document 改变func内this的指向</span></div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+</li>
+<li><p>Function.prototype.bind</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Function</span>.prototype.bind = <span class="function"><span class="keyword">function</span>(<span class="params">content</span>)</span>&#123;</div><div class="line">    <span class="keyword">var</span> self = <span class="keyword">this</span>; <span class="comment">//保存原函数this指向</span></div><div class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        self.apply(content,<span class="built_in">arguments</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"><span class="comment">//执行新函数时，会把传入的content对象当做函数体内的this</span></div><div class="line"><span class="keyword">var</span> obj = &#123;<span class="attr">name</span>:<span class="string">"sven"</span>&#125;;</div><div class="line"><span class="keyword">var</span> func = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="built_in">console</span>.log(<span class="keyword">this</span>.name)&#125;.bind(obj);</div><div class="line">func();</div></pre></td></tr></table></figure>
+</li>
+<li><p>借用对象方法</p>
+</li>
+</ol>
+<h1 id="闭包和高阶函数"><a href="#闭包和高阶函数" class="headerlink" title="闭包和高阶函数"></a>闭包和高阶函数</h1><h2 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h2><ol>
+<li>变量作用域：变量的有效范围，函数可以创建作用域</li>
+<li>变量的生存周期：全局变量的生存周期永久，除非主动销毁。函数内的局部变量，随函数的调用的结束而销毁。</li>
+<li>如果函数返回局部变量的引用，那么局部变量就不会被销毁，形成闭包<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> nodes = <span class="built_in">document</span>.getElementsByTagName(<span class="string">'div'</span>);</div><div class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;nodes.length;i++)&#123;</div><div class="line">    nodes[i].onclick = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        <span class="built_in">console</span>.log(i);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"><span class="comment">//无论点哪个div均返回5。onclick事件是异步出发，事件触发时循环早已借宿，i=5；</span></div><div class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;nodes.length;i++)&#123;</div><div class="line">    <span class="function"><span class="keyword">function</span>(<span class="params">i</span>)</span>&#123;</div><div class="line">            nodes[i].onclick = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">            <span class="built_in">console</span>.log(i);</div><div class="line">        &#125;(i)<span class="comment">//通过传参 保存到局部变量</span></div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//类型判断</span></div><div class="line"><span class="keyword">var</span> Type=&#123;&#125;;</div><div class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>,type;type=[<span class="string">'String'</span>,<span class="string">'Array'</span>,<span class="string">'Number'</span>][i++];)&#123;</div><div class="line">    (<span class="function"><span class="keyword">function</span>(<span class="params">type</span>)</span>&#123;</div><div class="line">        Type[<span class="string">'is'</span>+type]=<span class="function"><span class="keyword">function</span>(<span class="params">obj</span>)</span>&#123;</div><div class="line">            <span class="keyword">return</span> Objcet.prototype.toString.call(obj) === <span class="string">'[object '</span>+type+<span class="string">']'</span></div><div class="line">        &#125;</div><div class="line">    &#125;)(type)</div><div class="line">&#125;</div><div class="line"></div><div class="line">Type.isArray([]);<span class="comment">//ture</span></div></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/24/《你不知道的JavaScript（上）》笔记/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Wuyu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Soaryo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/09/24/《你不知道的JavaScript（上）》笔记/" itemprop="url">《你不知道的JavaScript》笔记</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-24T22:08:37+08:00">
+                2017-09-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="作用域"><a href="#作用域" class="headerlink" title="作用域"></a>作用域</h1><h2 id="编译原理"><a href="#编译原理" class="headerlink" title="编译原理"></a>编译原理</h2><p>传统编译语言的流程中，程序中的一段源代码在执行前有三个步骤，统称‘编译’</p>
+<ul>
+<li>分词/词法分析（Tokenizing/Lexing）将由字符组成的字符串分解成有意义的代码块，这些代码块被称为词法单元。</li>
+<li>解析/语法分析（Parsing）将词法单元流（数组）转换成一个由元素逐级嵌套所组成的代表了程序语法结构的树。这个树被称为“抽象语法树”（Abstract Syntax Tree, AST）</li>
+<li>代码生成</li>
+</ul>
+<h2 id="理解作用域"><a href="#理解作用域" class="headerlink" title="理解作用域"></a>理解作用域</h2><p><code>var a = 2;</code></p>
+<ul>
+<li>LHS 查询：试图找到变量的容器本身，从而可以对其赋值。也就是查找 变量 a 。</li>
+<li>RHS 查询：查找某个变量的值。查找变量 a 的值，即 2。 </li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/08/《Javascript面向对象编程指南》Note/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -331,14 +740,7 @@
       
         
           
-            <h1 id="面向对象的JavaScript"><a href="#面向对象的JavaScript" class="headerlink" title="面向对象的JavaScript"></a>面向对象的JavaScript</h1><ul>
-<li>对象</li>
-<li>类</li>
-<li>封装</li>
-<li>聚合</li>
-<li>继承</li>
-<li>多态</li>
-</ul>
+            <h1 id="面向对象的JavaScript"><a href="#面向对象的JavaScript" class="headerlink" title="面向对象的JavaScript"></a>面向对象的JavaScript</h1><p>对象、类、封装、聚合、继承、多态</p>
 <h1 id="ES语法"><a href="#ES语法" class="headerlink" title="ES语法"></a>ES语法</h1><h2 id="惰性求值"><a href="#惰性求值" class="headerlink" title="惰性求值"></a>惰性求值</h2><p>连续逻辑操作中，若操作结果在最后一个操作结束之前已经确定，操作不会继续执行。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> b=<span class="number">5</span>;</div><div class="line"><span class="literal">true</span>||(b=<span class="number">6</span>);<span class="comment">//return true;b=5;</span></div><div class="line"><span class="literal">true</span>&amp;&amp;(b=<span class="number">6</span>);<span class="comment">//return 6;b=6;</span></div></pre></td></tr></table></figure></p>
 <h2 id="undefined-与-null"><a href="#undefined-与-null" class="headerlink" title="undefined 与 null"></a>undefined 与 null</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> foo;</div><div class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span> foo); <span class="comment">//undefined</span></div><div class="line"><span class="keyword">var</span> soo=<span class="literal">null</span>;</div><div class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span> soo);<span class="comment">//object</span></div><div class="line"><span class="comment">//运算</span></div><div class="line"><span class="keyword">var</span> i=<span class="number">1</span>+<span class="literal">undefined</span>;<span class="comment">//NaN</span></div><div class="line"><span class="keyword">var</span> i=<span class="number">1</span>+<span class="literal">null</span>;<span class="comment">//1</span></div><div class="line"><span class="comment">//类型转换</span></div><div class="line"><span class="number">1</span>*<span class="literal">undefined</span>;<span class="comment">//NaN</span></div><div class="line"><span class="number">1</span>*<span class="literal">null</span>;<span class="comment">//0</span></div></pre></td></tr></table></figure>
 <h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><h2 id="URI的编码与反编码"><a href="#URI的编码与反编码" class="headerlink" title="URI的编码与反编码"></a>URI的编码与反编码</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line"><span class="keyword">var</span> url=<span class="string">'http://www.example.com/index.html?q=javascript'</span>;</div><div class="line"><span class="built_in">encodeURI</span>(url);</div><div class="line"><span class="comment">//"http://www.example.com/index.html?q=javascript"</span></div><div class="line"><span class="built_in">encodeURIComponent</span>(url);</div><div class="line"><span class="comment">//"http%3A%2F%2Fwww.example.com%2Findex.html%3Fq%3Djavascript"</span></div><div class="line"><span class="comment">//反编码 decodeURI(),decodeURIComponent();</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -385,7 +787,7 @@
 <li>prototype.constructor会改变<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Dog</span>(<span class="params"></span>)</span>&#123;<span class="keyword">this</span>.tail = <span class="literal">true</span>;&#125;;</div><div class="line">Dog.prototype.say = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="keyword">return</span> <span class="string">"woof!"</span>&#125;;</div><div class="line"><span class="keyword">var</span> benji = <span class="keyword">new</span> Dog();</div><div class="line">benji.say();<span class="comment">//'woof!'</span></div><div class="line">benji.constructor === Dog;<span class="comment">//true</span></div><div class="line"></div><div class="line">Dog.prototype = &#123;<span class="attr">hair</span>:ture&#125;;<span class="comment">//重写原型对象</span></div><div class="line">benji.hair;<span class="comment">//undefined</span></div><div class="line"><span class="keyword">var</span> lucy = <span class="keyword">new</span> Dog();</div><div class="line">lucy.hair;<span class="comment">//ture</span></div><div class="line">lucy.constructor;<span class="comment">//function Object()&#123;[native code]&#125;</span></div><div class="line">benji.constructor;<span class="comment">//function Dog()&#123;...&#125;</span></div><div class="line">Dog.prototype.constructor = Dog;<span class="comment">//重置构造器</span></div></pre></td></tr></table></figure>
 </li>
 </ol>
-<h1 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure>
+
           
         
       
@@ -711,7 +1113,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">6</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
