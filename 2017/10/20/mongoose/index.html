@@ -94,17 +94,17 @@
 
 
 
-<meta name="description" content="CSS Layout1">
+<meta name="description" content="mongoose defined Schema 123456var mongoose = require(&apos;mongoose&apos;);var Schema = mongoose.Schema;var UserSchema = new Schema(&amp;#123;    name: String,    password:String&amp;#125;);  creating a model 1var User">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Css Layout">
-<meta property="og:url" content="http://yoursite.com/2017/09/05/layout/index.html">
+<meta property="og:title" content="mongodb和mongoose学习参考">
+<meta property="og:url" content="http://yoursite.com/2017/10/20/mongoose/index.html">
 <meta property="og:site_name" content="Soaryo">
-<meta property="og:description" content="CSS Layout1">
+<meta property="og:description" content="mongoose defined Schema 123456var mongoose = require(&apos;mongoose&apos;);var Schema = mongoose.Schema;var UserSchema = new Schema(&amp;#123;    name: String,    password:String&amp;#125;);  creating a model 1var User">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-05T05:56:34.696Z">
+<meta property="og:updated_time" content="2017-10-20T16:35:56.821Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Css Layout">
-<meta name="twitter:description" content="CSS Layout1">
+<meta name="twitter:title" content="mongodb和mongoose学习参考">
+<meta name="twitter:description" content="mongoose defined Schema 123456var mongoose = require(&apos;mongoose&apos;);var Schema = mongoose.Schema;var UserSchema = new Schema(&amp;#123;    name: String,    password:String&amp;#125;);  creating a model 1var User">
 
 
 
@@ -133,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/09/05/layout/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/10/20/mongoose/"/>
 
 
 
 
 
-  <title>Css Layout | Soaryo</title>
+  <title>mongodb和mongoose学习参考 | Soaryo</title>
   
 
 
@@ -262,7 +262,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/05/layout/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/20/mongoose/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Wuyu">
@@ -279,7 +279,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Css Layout</h1>
+          <h1 class="post-title" itemprop="name headline">mongodb和mongoose学习参考</h1>
         
 
         <div class="post-meta">
@@ -291,8 +291,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-05T13:54:03+08:00">
-                2017-09-05
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-20T23:02:48+08:00">
+                2017-10-20
               </time>
             
 
@@ -329,7 +329,25 @@
       
 
       
-        <h2 id="CSS-Layout"><a href="#CSS-Layout" class="headerlink" title="CSS Layout"></a>CSS Layout</h2><h3 id="1"><a href="#1" class="headerlink" title="1"></a>1</h3>
+        <h1 id="mongoose"><a href="#mongoose" class="headerlink" title="mongoose"></a>mongoose</h1><ol>
+<li><p>defined Schema</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> mongoose = <span class="built_in">require</span>(<span class="string">'mongoose'</span>);</div><div class="line"><span class="keyword">var</span> Schema = mongoose.Schema;</div><div class="line"><span class="keyword">var</span> UserSchema = <span class="keyword">new</span> Schema(&#123;</div><div class="line">    name: <span class="built_in">String</span>,</div><div class="line">    password:<span class="built_in">String</span></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+</li>
+<li><p>creating a model</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> User = mongoose.model(<span class="string">'User'</span>,UserSchema);</div></pre></td></tr></table></figure>
+</li>
+<li><p>Documents<br>Documents are instances of our model.<br>Documents can be retreived using each models <code>find</code>,<code>findById</code>, <code>findOne</code>, or <code>where</code> static methods.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> admin = <span class="keyword">new</span> User(&#123;<span class="attr">name</span>:<span class="string">'admin'</span>,<span class="attr">password</span>:<span class="string">'123456'</span>&#125;);</div><div class="line">admin.save();</div></pre></td></tr></table></figure>
+</li>
+<li><p>Instance methods<br>Instances of Models are <code>documents</code>. Documents have many of their own <code>built-in instance methods</code>. </p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//custom document instance methods</span></div><div class="line">UserSchema.methods = &#123;</div><div class="line">  method: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;&#125;</div><div class="line">&#125;</div><div class="line"><span class="comment">//statics methods</span></div><div class="line">UserSchema.statics = &#123;</div><div class="line">  fetch: <span class="function"><span class="keyword">function</span>(<span class="params">cb</span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> <span class="keyword">this</span></div><div class="line">      .find(&#123;&#125;)</div><div class="line">      .sort(<span class="string">'meta.updateAt'</span>)</div><div class="line">      .exec(cb)</div><div class="line">  &#125;,</div><div class="line">  findById: <span class="function"><span class="keyword">function</span>(<span class="params">id, cb</span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> <span class="keyword">this</span></div><div class="line">      .findOne(&#123;<span class="attr">_id</span>: id&#125;)</div><div class="line">      .exec(cb)<span class="comment">//执行完后将调用callback函数</span></div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+<li><p>middleware</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">UserSchema.pre(<span class="string">'save'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">next</span>) </span>&#123;</div><div class="line">  <span class="keyword">if</span> (<span class="keyword">this</span>.isNew) &#123;</div><div class="line">    <span class="keyword">this</span>.meta.createAt = <span class="keyword">this</span>.meta.updateAt = <span class="built_in">Date</span>.now()</div><div class="line">  &#125;</div><div class="line">  <span class="keyword">else</span> &#123;</div><div class="line">    <span class="keyword">this</span>.meta.updateAt = <span class="built_in">Date</span>.now()</div><div class="line">  &#125;</div><div class="line">  next()</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>6.<br>Document#isNew<br>Boolean flag specifying if the document is new.<br><code>Document.prototype.isNew;</code></p>
+
       
     </div>
     
@@ -353,15 +371,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/10/19/js模块化/" rel="next" title="js模块化">
+                <i class="fa fa-chevron-left"></i> js模块化
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/09/05/JS Note/" rel="prev" title="JSNote">
-                JSNote <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -486,7 +504,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#CSS-Layout"><span class="nav-number">1.</span> <span class="nav-text">CSS Layout</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1"><span class="nav-number">1.1.</span> <span class="nav-text">1</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#mongoose"><span class="nav-number">1.</span> <span class="nav-text">mongoose</span></a></li></ol></div>
             
 
           </div>
